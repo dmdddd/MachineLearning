@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ResultsWindow</class>
+ <widget class="QMainWindow" name="ResultsWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>574</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Bot Recognition</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="resultsGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>551</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Results</string>
+    </property>
+    <widget class="QPushButton" name="loadResultsButton">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>330</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Load</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="saveResultsButton">
+     <property name="geometry">
+      <rect>
+       <x>99</x>
+       <y>330</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backButton">
+     <property name="geometry">
+      <rect>
+       <x>466</x>
+       <y>330</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="groupOneBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>531</width>
+       <height>111</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="groupTwoBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>531</width>
+       <height>111</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="groupOneLabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>35</y>
+       <width>111</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Group 1</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="groupTwoLabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>175</y>
+       <width>43</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Group 2</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="messageLabel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>531</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Data Split</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="showGroupOneSal">
+     <property name="geometry">
+      <rect>
+       <x>421</x>
+       <y>36</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show Saliency Mapping</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="showGroupTwoSal">
+     <property name="geometry">
+      <rect>
+       <x>421</x>
+       <y>176</y>
+       <width>121</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Show Saliency Mapping</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>574</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
